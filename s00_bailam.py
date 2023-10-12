@@ -31,5 +31,19 @@ tongtienmuahang(None)                   | None
 
 #region bailam
 def tongtienmuahang(gia_truoc_thue):
-  return 'todo'
+  """Tinh tong tien thue khimua hang.
+
+  Args:
+    gia_truoc_thue: Gia Tien Truoc Thue.
+
+  Returns:
+    Tong tien sau thue.
+  """
+
+  if gia_truoc_thue is None:
+    return None
+
+  thue = gia_truoc_thue * 0.1
+  tongtienmuahang = gia_truoc_thue + thue
+  return tongtienmuahang
 #endregion bailam
